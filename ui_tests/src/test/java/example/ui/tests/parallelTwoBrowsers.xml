@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ArchitectureStart autotests" parallel="tests" thread-count="2">
+    <test name="test on firefox">
+        <parameter name="browserName" value="FIREFOX"/>
+        <classes>
+<!--           <class name="architecture.ui.tests.loginPage.PasswordRecoveryPhoneNumberTest"/>-->
+        </classes>
+    </test>
+    <test name="test on chrome">
+        <parameter name="browserName" value="CHROME"/>
+        <classes>
+<!--          <class name="architecture.ui.tests.loginPage.PasswordRecoveryPhoneNumberTest"/>-->
+        </classes>
+    </test>
+</suite>

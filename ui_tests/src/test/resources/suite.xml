@@ -1,0 +1,9 @@
+<suite name="All Test Suite" parallel="methods" thread-count="5">
+<suite name="Example autotests">
+    <test name="tests">
+        <packages>
+            <package name="example.ui.*"/>
+        </packages>
+    </test>
+</suite>
+</suite>
